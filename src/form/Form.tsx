@@ -24,7 +24,7 @@ function Form(props: PropsI) {
                 <InputRightElement
                     width="100px"
                     children={
-                        <Button colorScheme="pink" width="100px">
+                        <Button type="submit" colorScheme="pink" width="100px">
                             Find
                         </Button>
                     }
