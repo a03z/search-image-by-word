@@ -6,7 +6,7 @@
 }
 
 .mainHeading {
-    margin: 150px 0 25px 0;
+    margin: 40px 0 25px 0;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -16,6 +16,7 @@
 }
 
 .my-masonry-grid {
+    margin-top: 25px;
     display: -webkit-box; /* Not needed if autoprefixing */
     display: -ms-flexbox; /* Not needed if autoprefixing */
     display: flex;
@@ -24,4 +25,10 @@
 }
 .my-masonry-grid_column {
     background-clip: padding-box;
+}
+
+@media (max-width: 768px) {
+    .searchForm {
+        width: 85%;
+    }
 }
